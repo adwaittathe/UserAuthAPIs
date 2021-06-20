@@ -16,8 +16,7 @@ API's are hosted on EC2.
 User-Authentication-API can be used to login, signup user and get user specific information.
 > In the examples on this page, you would replace [TOKEN] with the token returned by this API after user SignUp/Login.
 ### Login 
-> GET [serverURL]/api/user/login
-* Method - Post 
+> POST [server URL]/api/user/login
 * Request Payload - 
    ```
    {
@@ -41,8 +40,7 @@ User-Authentication-API can be used to login, signup user and get user specific 
 
 
 ### Signup 
-> http://ec2-18-234-241-134.compute-1.amazonaws.com/api/user/signUp
-* Method - Post
+> POST [server URL]/api/user/signUp
 * Request payload - 
    ```
    {
@@ -73,8 +71,7 @@ User-Authentication-API can be used to login, signup user and get user specific 
 
 
 ### Get user details 
-> http://ec2-18-234-241-134.compute-1.amazonaws.com/api/user/details
-* Method - Get
+> GET [server URL]/api/user/details
 * Request Payload(Header) -
 ```
 “token” :[TOKEN]
@@ -100,8 +97,7 @@ User-Authentication-API can be used to login, signup user and get user specific 
    * 401 - Invalid token
 
 ### Update user
-> http://ec2-18-234-241-134.compute-1.amazonaws.com/api/user/update
-* Method - Put
+> PUT [server URL]/api/user/update
 * Request Payload -
 ```
 {
@@ -132,8 +128,7 @@ User-Authentication-API can be used to login, signup user and get user specific 
    * 401 - Invalid token
 
 ### Delete user
-> http://ec2-18-234-241-134.compute-1.amazonaws.com/api/user/delete
-* Method - Delete
+> DELETE [server URL]/api/user/delete
 
 * Request Payload -
 
