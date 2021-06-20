@@ -16,7 +16,7 @@ API's are hosted on EC2.
 User-Authentication-API can be used to login, signup user and get user specific information.
 > In the examples on this page, you would replace [TOKEN] with the token returned by this API after user SignUp/Login.
 ### Login 
-> http://ec2-18-234-241-134.compute-1.amazonaws.com/api/user/login
+> GET [serverURL]/api/user/login
 * Method - Post 
 * Request Payload - 
    ```
