@@ -1,6 +1,6 @@
 # User-Authentication-API
 
-User authentication API can be used to easily authenticate users for mobile applications.\
+User authentication API can be used to easily authenticate users for mobile applications. The application returns JWT token after login/signup which is used later for the as a header for remaining APIs.\
 API's are hosted on EC2.
 
 ## Table of content
